@@ -1,0 +1,192 @@
+/* Service.css */
+
+/* Keyframe for folding from left to right */
+@keyframes fold-left {
+  0% {
+    transform: perspective(1000px) rotateX(90deg);
+    /* Initial folded state */
+    opacity: 0;
+  }
+
+  100% {
+    transform: perspective(1000px) rotateX(0deg);
+    /* Flat state */
+    opacity: 1;
+  }
+}
+
+/* Keyframe for folding from right to left */
+@keyframes fold-right {
+  0% {
+    transform: perspective(1000px) rotateX(-90deg);
+    /* Initial folded state */
+    opacity: 0;
+  }
+
+  100% {
+    transform: perspective(1000px) rotateX(0deg);
+    /* Flat state */
+    opacity: 1;
+  }
+}
+
+/* Common class for all cards */
+.card-animation {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+/* Apply the folding animations */
+.fold-left {
+  animation-name: fold-left;
+}
+
+.fold-right {
+  animation-name: fold-right;
+}
+
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+.how-to-work-section {
+  padding: 2rem;
+}
+
+.how-to-work-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.how-to-work-section ol {
+  width: min(80rem, 90%);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  counter-reset: stepnr;
+}
+
+.how-to-work-section li {
+  counter-increment: stepnr;
+  width: 24rem;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+  position: relative;
+  background-color: #fff;
+  border-radius: 50%;
+  background-color: #f078c2;
+  overflow: hidden;
+}
+
+.how-to-work-section li::before {
+  content: counter(stepnr);
+  color: var(--accent-color);
+  padding-left: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin-left: 4px;
+}
+
+.how-to-work-section li .icon {
+  font-size: 2rem;
+  color: var(--accent-color);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.how-to-work-section li .title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.how-to-work-section li .descr {
+  font-size: 0.9rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.how-to-work-section ol li:nth-child(6n + 1) {
+  --accent-color: #b8df4e
+}
+
+.how-to-work-section ol li:nth-child(6n + 2) {
+  --accent-color: #4cbccb
+}
+
+.how-to-work-section ol li:nth-child(6n + 3) {
+  --accent-color: #7197d3
+}
+
+.how-to-work-section ol li:nth-child(6n + 4) {
+  --accent-color: #7f3cb9
+}
+
+.how-to-work-section ol li:nth-child(6n + 5) {
+  --accent-color: #7dc7a4
+}
+
+.how-to-work-section ol li:nth-child(6n + 6) {
+  --accent-color: #f078c2
+}
+
+/* Hover effect for purple outline animation */
+.how-to-work-section li::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 100%;
+  border: 5px solid transparent;
+  transition: border 2s ease;
+}
+
+.how-to-work-section li::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 20px solid #7f3cb9;
+  /* Initial green outline */
+  transition: border-color 1s ease, border-width 1s ease;
+  z-index: 0;
+}
+
+.how-to-work-section li:hover::after {
+
+}
+
+/* Keyframes for shrinking the border */
+@keyframes shrink-border {
+  0% {
+    border-width: 0px;
+    /* Start with outer thick border */
+    border-radius: 50%;
+    /* Keep full circle initially */
+  }
+
+  100% {
+    border-width: 15px;
+    /* Shrink to inner border */
+    border-radius: 50%;
+    /* Maintain circular shape */
+  }
+}
+
+
+@keyframes outline-animation {
+  0% {
+    border-width: 0;
+  }
+
+  100% {
+    border-width: 15px;
+  }
+}

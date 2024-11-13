@@ -1,0 +1,250 @@
+{
+    "service": [
+        {
+            "id": "SIL",
+            "title": "Shared Independent Living(SIL)",
+            "minidesc": "Autonomy . Resilience . Growth",
+            "imageUrl": "assets/images/SIL.jpg",
+            "description": "Empower your independence with our Supported Independent Living (SIL) services, tailored to help you thrive in a community setting. Our dedicated team provides personalized support, ensuring you live confidently and comfortably while achieving your goals.",
+            "detaildescription": "At nExcellece Care, we’re passionate about empowering individuals with disabilities to live life on their terms. Our Supported Independent Living (SIL) services go beyond mere assistance—they’re a pathway to autonomy, fulfillment, and community integration.\n\n\n 🌟 What is SIL? \n\n\n SIL isn’t just about daily tasks; it’s about creating a life that resonates with our clients’ aspirations. Imagine personalized care that enables them to break free from traditional models. SIL is the key to their independence, dignity, and well-being.\n\n\n 🏡 Home, Sweet Home: SIL Accommodations Our dedicated team ensures each client finds the perfect home—one that aligns with their needs and dreams. Whether it’s a cozy apartment or a shared house, we’re committed to creating a safe, welcoming environment where they thrive.\n\n\n 🤝 NDIS Support Providers: Our Allies Our NDIS Support Providers are more than professionals; they’re our allies. They coordinate support staff, guide clients through NDIS guidelines, and ensure seamless service delivery. With nExcellece Care, clients are never alone on this journey. \n\n\n 🌈 Quality Beyond Expectations We’ve heard the frustrations—varying service quality, lack of reliability. That’s why we set the bar high. Our commitment to excellence means well-trained staff, clear communication, and unwavering respect for clients’ choices.\n\n\n 🔍 Strategies for Success: The SIL Journey Research First: Investigate our track record. We’re proud of our reputation for reliability and compassion. Speak Up: Communicate needs openly. We listen, adapt, and tailor services to each client."
+        },
+        {
+            "id": "STA",
+            "title": "Short-Term Accommodation(STA)",
+            "minidesc": "Comfort . Care . Convinience",
+            "imageUrl": "assets/images/ShortTermAccomodation.jpg",
+            "description": "Experience comfort and care with our Short-Term Accommodation (STA) services, designed to provide a home-away-from-home for NDIS participants. Our STA offers a safe, supportive environment where you can relax, recharge, and enjoy tailored activities that meet your unique needs.",
+            "detaildescription": "**Discover Your Home Away from Home with Our Short-Term Accommodation Service** \n\n\n At nExcellence Care, we understand that finding the right place to stay, even for a short period, can make all the difference. Our Short-Term Accommodation (STA) service is designed to provide you with a seamless blend of comfort, care, and convenience, ensuring you feel right at home from the moment you arrive.\n\n\n **Comfort**: Our STA facilities are thoughtfully designed to offer a cozy and welcoming environment. Each space is equipped with modern amenities and accessible features to cater to your unique needs, making your stay as comfortable as possible.\n\n\n **Care**: We prioritize your well-being above all else. Our dedicated team of professionals is committed to providing personalized care and support, ensuring that all your requirements are met with compassion and efficiency. Whether you need assistance with daily activities or just a friendly face to talk to, we're here for you.\n\n\n **Convenience**: Located in prime areas, our STA accommodations offer easy access to essential services and community resources. We take care of all the details, from transportation to meal planning, so you can focus on enjoying your stay and making the most of your time. Experience the perfect sanctuary where you can rest, rejuvenate, and thrive. Choose nExcellence Care's Short-Term Accommodation service for a truly exceptional and supportive experience."
+        },
+        {
+            "id": "PersonalActivities",
+            "title": "Personal Activities",
+            "minidesc": "Dignity    .    Independence    .    Support",
+            "imageUrl": "assets/images/friends-having-fun-together.jpg",
+            "description": "Daily tasks should be hassle-free. Whether it’s personal grooming, bathing, or mobility assistance, our team is trained to provide support with dignity and respect. We prioritise safety and comfort, ensuring that every individual feels cared for and valued.",
+            "detaildescription": "At nExcellece Care, we are dedicated to enhance the quality of life for NDIS participants through our comprehensive and individualized services. Our goal is to provide personalized support that empowers individuals to live independently and confidently.\n\n\n Whether you need assistance with daily tasks such as personal hygiene, meal preparation, or engaging in social and recreational activities, our compassionate team is here to help. We understand that every participant has unique needs and preferences. \n\n\n That's why we work closely with you and your family to develop a tailored plan that aligns with your goals. Our highly trained staff are committed to deliver support with respect and dignity, ensuring that you feel valued at all times. Our services cater to a diverse range of NDIS participants,  those with physical , intellectual , and mental health challenges. \n\n\n We pride ourselves on our flexibility and adaptability, allowing us to meet your changing needs with consistent and reliable support. With nExcellece Care, you can trust that you are in capable hands, giving you the freedom to focus on what truly matters – enjoying a happy and independent life. \n\n\n Experience the difference that personalized care can make. Contact us today to learn more about our services and how we can support you or your loved ones on the journey to achieve your goals."
+        },
+        {
+            "id": "HouseholdTasks",
+            "title": "Household Tasks",
+            "minidesc": "Cleanliness.Reliability.Efficiency",
+            "imageUrl": "assets/images/Household_Task.jpg",
+            "description": " Promoting self-reliance is at the core of our mission. We provide support in daily routines, ensuring that individuals can lead independent lives while still having access to assistance when needed. From managing finances to household tasks, we’re here to support, not dictate.",
+            "detaildescription": "At nExcellece Care, we understand that maintaining a clean and organized environment is essential for participants'  independence and well-being. \n\n\nOur Household Tasks service is designed to support NDIS participants in managing daily chores, ensuring a comfortable and safe living environment. Whether you need assistance with cleaning, laundry, meal preparation, or other household duties, our dedicated team is here to help.\n\n\n Our highly trained and compassionate staff are committed to providing personalized support tailored to your unique needs and preferences. \n\n\n We work closely with you and your family to develop a customized plan that fits seamlessly into your routine, promoting independence and enhancing your quality of life. \n\n\n With our reliable and professional service, you can focus on what truly matters – enjoying your time and achieving your goals. We cater to a wide range of NDIS participants, from those requiring minimal assistance to individuals needing comprehensive support. Our flexible approach ensures that we can adapt to your changing needs, providing consistent and dependable care. \n\n\n Trust nExcellece Care to deliver exceptional service that prioritizes your comfort, safety, and satisfaction.Experience the peace of mind that comes with knowing your household tasks are in capable hands. \n\n\n Let us help you create a home environment that supports your independence and well-being. Contact us today to learn more about how our Household Tasks service can make a difference in your life."
+        },
+        {
+            "id": "RecreationalActivities",
+            "title": "Recreational Activities",
+            "minidesc": "Engagement.Enjoyment.Well-being",
+            "imageUrl": "assets/images/recreational.jpg",
+            "description": "Caregivers are the unsung heroes, often neglecting their own needs. Our respite services provide caregivers with a well-deserved break, ensuring that they can recharge while their loved ones receive the best care.",
+            "detaildescription": "At nExcellece Care, we believe that recreational activities are essential for the holistic well-being of NDIS participants. Our Recreational Activities service is designed to offer a diverse range of engaging and enjoyable experiences that cater to the unique interests and abilities of each participant. \n\n\n Whether it’s sports, arts and crafts, music, or social outings, we cater to explore their passions and build meaningful connections. Our dedicated team of professionals works closely with participants to create personalized activity plans that align with their goals and objectives. \n\n\n We ensure that all activities are inclusive, accessible, and tailored to accommodate varying levels of ability. By fostering a supportive and fun environment, we help participants develop new skills, boost their confidence, and enhance their overall quality of life. \n\n\n Choose nExcellece Care for Recreational Activities and discover the joy of new experiences. Our commitment to excellence and individualized care makes us the trusted choice for NDIS participants, their families, and plan managers. Let us help you create lasting memories and a vibrant, fulfilling life through our diverse and engaging recreational activities."
+        },
+        {
+            "id": "Transportation",
+            "title": "Transportation",
+            "minidesc": "Accessibility.Safety.Convenience",
+            "imageUrl": "assets/images/Transportation-inspirational-moment-young-boy-wheelchair-with-arms-raised-towards-sunset (1).jpg",
+            "description": "Building connections is essential for mental well-being. We facilitate participation in various community events, workshops, and social gatherings, ensuring that individuals remain connected and engaged. From local fairs to civic meetings, we’re here to bridge the gap.",
+            "detaildescription": "At nExcellece Care, we understand that reliable and accessible transportation is crucial for NDIS participants to lead fulfilling and independent lives. Our Transportation Services are designed to cater to a wide range of needs, ensuring that every journey is safe, comfortable, and tailored to individual requirements. \n\n\n Choose nExcellece Care for your transportation needs and experience the freedom and confidence that comes with dependable, individualized service. Let us help you navigate your world with ease and independence."
+        },
+        {
+            "id": "CommunityParticipation",
+            "title": "Community Participation",
+            "minidesc": "Inclusion.Socialization.Empowerment",
+            "imageUrl": "assets/images/Community Participation_1.jpg",
+            "description": "Making daily life smoother isn’t just a tagline; it’s a promise. From cleaning and laundry to meal preparation and grocery shopping, our team is dedicated to ensuring that your home remains a sanctuary. We understand the importance of a well-kept environment and its impact on mental and physical well-being. Let us handle the chores so you can focus on what truly matters.",
+            "detaildescription": "At nExcellece Care, we believe that active community participation is essential for enhancing the quality of life and fostering a sense of belonging for our NDIS participants. \n\n\n Our Community Participation Services are designed to support individuals in engaging with their communities, building social connections, and pursuing their interests and hobbies. We offer a diverse range of activities tailored to meet the unique needs and preferences of each participant. \n\n\n From social outings and recreational activities to skill-building workshops and volunteer opportunities, our programs are crafted to promote independence, confidence, and personal growth. \n\n\n Our dedicated team of support workers is committed to providing a safe, inclusive, and encouraging environment where participants can thrive. Understanding that every participant has different goals, we work closely with individuals, their families, and plan managers to create personalized community participation plans. \n\n\n These plans are flexible and adaptable, ensuring that participants can explore new experiences and make meaningful contributions to their communities at their own pace. \n\n\n Choose nExcellece Care for your community participation needs and discover the joy of connecting with others, learning new skills, and making a positive impact. Let us help you unlock your potential and embrace the opportunities that await in your community.!"
+        },
+        {
+            "id": "MedicationManagement",
+            "title": "Medication Management",
+            "minidesc": "Accuracy.Timeliness.Compliance",
+            "imageUrl": "assets/images/medication.jpg",
+            "description": "Indulge in a break from routine with our Short Term Accommodation services. Whether you’re seeking a weekend getaway or a brief respite, our comfortable accommodations offer a home away from home. Experience a supportive and inclusive environment, tailored to meet your needs. Relax, recharge, and enjoy a temporary escape with our Short Term Accommodation services.",
+            "detaildescription": "At nExcellece Care, we understand that managing medications can be a complex and daunting task for many NDIS participants. Our Medication Management service is designed to provide comprehensive support, ensuring that you or your loved ones can maintain independence while adhering to prescribed medication regimens safely and effectively. \n\n\n Our team of experienced and compassionate staff is dedicated to delivering personalized medication management plans tailored to each participant’s unique needs. Choose nExcellece Care for Medication Management and experience peace of mind knowing that you or your loved ones are in capable and caring hands. Our commitment to excellence and individualized care makes us the trusted choice for NDIS participants, their families, and plan managers. \n\n\n Let us help you achieve better health outcomes and a higher quality of life through our reliable and compassionate medication management services."
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "asd1293uasdads1",
+            "title": "Food & Restaurants",
+            "imageUrl": "assets/images/Recruiting.png",
+            "type": "Website",
+            "description": "Welcome to n Excellence Care Consultancy, where we blend timeless elegance with modern digital craftsmanship. Step into a world where we transform food and restaurant visions into stunning online experiences, each website telling a unique story of culinary artistry and sophistication.At n Excellence Care Consultancy, we believe in the artistry of web development, and our passion reflects in every meticulously crafted website. Whether you're seeking a dazzling online presence for a special occasion or a functional everyday site, our services embody the perfect blend of tradition and contemporary design.Our offerings go beyond just building websites; we create virtual showcases of artistry and creativity. Navigate through our portfolio to discover a curated selection of handpicked designs, features, and functionalities that resonate with the essence of your brand. Each creation is a testament to our commitment to quality, ensuring that every website we develop is not just an online platform but a legacy to be cherished.",
+            "responsibility": [
+                "Web Development",
+                "UI/UX Design",
+                "Digital Marketing"
+            ],
+            "credit": "https://65aad1dc28c67c1a9e1db005--soft-treacle-01e93e.netlify.app/"
+        },
+        {
+            "id": "asd1293uhjkhkjh2",
+            "title": "Gym & Fitness",
+            "imageUrl": "assets/images/Stream.png",
+            "type": "Web App",
+            "description": "Welcome to n Excellence Care Consultancy, where we blend timeless elegance with modern digital craftsmanship. Step into a world where we transform gym and fitness visions into stunning online experiences, each website telling a unique story of health, wellness, and sophistication.At n Excellence Care Consultancy, we believe in the artistry of web development, and our passion reflects in every meticulously crafted website. Whether you're seeking a dazzling online presence for a special event or a functional everyday site, our services embody the perfect blend of tradition and contemporary design.Our offerings go beyond just building websites; we create virtual showcases of artistry and creativity. Navigate through our portfolio to discover a curated selection of handpicked designs, features, and functionalities that resonate with the essence of your brand. Each creation is a testament to our commitment to quality, ensuring that every website we develop is not just an online platform but a legacy to be cherished.",
+            "responsibility": [
+                "Wbsite Development",
+                "UI/UX Design",
+                "Digital Marketing"
+            ],
+            "credit": "https://65aadd4ef20cd10c507671bf--brilliant-narwhal-b9ef68.netlify.app/"
+        },
+        {
+            "id": "asd1293uvbvcbbd3",
+            "title": "Healthcare Website ",
+            "imageUrl": "assets/images/Freelance.png",
+            "type": "Web Apps",
+            "description": "Welcome to n Excellence Care Healthcare, where modern technology meets seamless patient care. As you step into our virtual clinic powered by React, Redux, and inspired by our Figma-designed interface, get ready to experience healthcare redefined.At n Excellence Care Healthcare, we believe in making healthcare not just a service but a tailored experience. Our website, meticulously crafted with React and enhanced by the power of Redux, reflects our commitment to providing you with a user-friendly, secure, and feature-rich platform.Our Figma-inspired design is not just aesthetically pleasing but also intuitively crafted to ensure a smooth and engaging journey. The clean lines, modern color schemes, and thoughtful layouts are all designed with your convenience in mind. Navigating through your medical records, managing appointments, and exploring our healthcare services has never been more visually appealing.Our website, built with React, ensures a highly responsive and dynamic interface. Enjoy real-time updates, instant appointment scheduling, and a fluid user experience, all seamlessly integrated into our healthcare platform. React's component-based architecture allows us to create a modular and scalable frontend that adapts to your needs.With Redux, we've elevated your healthcare experience by implementing robust state management. Seamlessly track your health journey, access historical data, and navigate effortlessly through our website without losing context. Redux empowers us to maintain a consistent and reliable state, ensuring that your data is secure and always available when you need it.",
+            "responsibility": [
+                "Website Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://fluffy-kataifi-5e88f0.netlify.app"
+        }
+    ],
+    "ourservices": [
+        {
+            "id": "asd1293uasdads11",
+            "title": "Healthcare",
+            "imageUrl": "assets/images/Rectangle 38.png",
+            "type": " Our healthcare software development services are designed to enhance patient care, and improve overall efficiency in the healthcare industry.",
+            "description": "Welcome to n Excellence Care Consultancy, where expertise meets compassion to provide comprehensive solutions for all your healthcare needs. At n Excellence Care, we understand that navigating the complexities of the healthcare system can be overwhelming, and our mission is to simplify this journey for you. With a team of seasoned professionals and a commitment to excellence, we offer personalized consultancy services that ensure the best outcomes for both patients and healthcare providers.Our website serves as a dynamic platform designed to offer a seamless experience for all visitors. Whether you're a healthcare professional seeking strategic advice, a patient in need of guidance, or an organization looking to optimize your operations, n Excellence Care Consultancy is here to support you.At n Excellence Care Consultancy, we blend industry knowledge with a compassionate approach to deliver services that are both effective and empathetic. Our consultants are not only experts in their fields but are also dedicated to making a positive impact on the lives of those we serve.",
+            "responsibility": [
+                "Web Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://65aad1dc28c67c1a9e1db005--soft-treacle-01e93e.netlify.app/"
+        },
+        {
+            "id": "asd1293uhjkhkjh22",
+            "title": "Food & Restaurants",
+            "imageUrl": "assets/images/content.png",
+            "type": "We Offer a complete solutions for food and restaurant industry, from online ordering to table reservation system  and more.",
+            "description": "Welcome to n Excellence Care Consultancy, where culinary excellence meets strategic innovation. At n Excellence Care, we specialize in elevating your dining experience by providing tailored solutions for restaurants, cafes, and food service businesses. Our expert team offers comprehensive services including menu development, operational efficiency, branding, and marketing strategies to ensure your establishment thrives in a competitive market. Navigate our website to discover how we blend creativity with industry expertise to transform your vision into a gastronomic success, ensuring every meal served is a testament to quality and culinary artistry.",
+            "responsibility": [
+                "Wbsite Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://65aadd4ef20cd10c507671bf--brilliant-narwhal-b9ef68.netlify.app/"
+        },
+        {
+            "id": "asd1293uvbvcbbd33",
+            "title": "Gym & Fitness",
+            "imageUrl": "assets/images/Gym.png",
+            "type": "All-in-one gym management software that helps you manage your gym efficiently, grow your business, and engage with your members.",
+            "description": "Welcome to n Excellence Care Consultancy, where health and wellness are our top priorities. At n Excellence Care, we specialize in optimizing fitness facilities and personal training businesses through tailored solutions that enhance member experiences and operational efficiency. Our expert team offers comprehensive services including gym design, equipment selection, staff training, and innovative marketing strategies to ensure your fitness center stands out in a competitive market. Explore our website to discover how we combine industry expertise with a passion for fitness to transform your vision into a thriving, dynamic fitness destination.",
+            "responsibility": [
+                "Website Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://fluffy-kataifi-5e88f0.netlify.app"
+        },
+        {
+            "id": "asd1293uvbvcbb44",
+            "title": "On Demand Services",
+            "imageUrl": "assets/images/OnDemand.png",
+            "type": "Build on-demand applications in your budget with precise and feasible timelines to launch your on-demand business in the market.",
+            "description": "Welcome to n Excellence Care Consultancy, your trusted partner in the rapidly evolving on-demand economy. At n Excellence Care, we specialize in providing strategic solutions for businesses offering on-demand services, from delivery and transportation to home services and beyond. Our expert team delivers comprehensive support in app development, user experience optimization, market analysis, and innovative marketing strategies to ensure your service excels in a competitive landscape. Explore our website to discover how we blend industry knowledge with cutting-edge technology to transform your vision into a successful, user-centric on-demand service.",
+            "responsibility": [
+                "Website Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://fluffy-kataifi-5e88f0.netlify.app"
+        },
+        {
+            "id": "asd1293uvbvcbbd55",
+            "title": "Home Services",
+            "imageUrl": "assets/images/HomeServices.png",
+            "type": "Home services software that helps you manage your home services business efficiently, grow your business, and engage with your customers.",
+            "description": "Welcome to n Excellence Care Consultancy, where quality and convenience meet. At n Excellence Care, we specialize in enhancing businesses that provide home services, from cleaning and maintenance to home improvement and beyond. Our expert team offers comprehensive solutions including service optimization, customer experience enhancement, staff training, and targeted marketing strategies to ensure your business excels in a competitive market. Explore our website to discover how we combine industry expertise with a commitment to excellence to transform your vision into a trusted, high-quality home services provider.",
+            "responsibility": [
+                "Website Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://fluffy-kataifi-5e88f0.netlify.app"
+        },
+        {
+            "id": "asd1293uvbvcbbd66",
+            "title": "Ecommerce & Retail",
+            "imageUrl": "assets/images/Ecommerce.png",
+            "type": "Eccomerece and Retail software that helps you manage your business efficiently, grow your business and engage with your customers.",
+            "description": "Welcome to n Excellence Care Consultancy, where innovation meets customer satisfaction. At n Excellence Care, we specialize in empowering online and brick-and-mortar retailers with tailored solutions to enhance their operations and customer engagement. Our expert team provides comprehensive services including e-commerce platform optimization, inventory management, user experience design, and strategic marketing to ensure your business thrives in a competitive market. Explore our website to discover how we blend industry expertise with cutting-edge technology to transform your vision into a successful, customer-centric retail experience.",
+            "responsibility": [
+                "Website Development",
+                "UI/UX Design"
+            ],
+            "credit": "https://fluffy-kataifi-5e88f0.netlify.app"
+        }
+    ],
+    "advantage": [
+        [
+            {
+                "title": "Dignity",
+                "description": "Empowering participants with compassionate, personalised support for their daily activities, ensuring dignity and independence every step of the way.",
+                "imageUrl": "assets/images/Communicative.png"
+            },
+            {
+                "title": "Inclusion",
+                "description": "Fostering inclusion by connecting participants with their community, ensuring everyone feels valued and engaged.",
+                "imageUrl": "assets/images/Management.png"
+            }
+        ],
+        [
+            {
+                "title": "Reliability",
+                "description": "Count on us for reliable, efficient support with household tasks, ensuring your home runs smoothly and stress-free.",
+                "imageUrl": "assets/images/Collaborative.png"
+            },
+            {
+                "title": "Engagement",
+                "description": "Bringing joy and engagement to participants through fun and fulfilling recreational activities, making every moment count.",
+                "imageUrl": "assets/images/Favourite.png"
+            }
+        ]
+    ],
+    "testimonial": [
+        {
+            "name": "Sasha Rose",
+            "company": "Owner, Surveyor Corps",
+            "testimoni": "Thanks for n Excellence Care, you guys are the best! Keep up the great work!",
+            "imageUrl": "assets/images/Sasha.jpg"
+        },
+        {
+            "name": "Kruger Khan",
+            "company": "Director, Shultan Oil",
+            "testimoni": "I just wanted to let you know that it’s been great working with n Excellence Care.",
+            "imageUrl": "assets/images/Kruger.jpg"
+        },
+        {
+            "name": "Reiner John",
+            "company": "CEO, Marley CO",
+            "testimoni": "n Excellence Care is so great. Thank you so much for a job well done.",
+            "imageUrl": "assets/images/Reiner.jpg"
+        }
+    ],
+    "team": [
+        {
+            "name": "Kritarth Tripathi",
+            "position": "Co-Founder",
+            "imageUrl": "assets/images/Frontend2.jpg"
+        },
+        {
+            "name": "Shivam Singh",
+            "position": "Co-Founder",
+            "imageUrl": "assets/images/CEO.jpg"
+        },
+        {
+            "name": "Manish Tiwari",
+            "position": "Finance",
+            "imageUrl": "assets/images/Frontend1.jpg"
+        },
+        {
+            "name": "Somnath Bajpai",
+            "position": "Project Manager",
+            "imageUrl": "assets/images/Project-manager.jpg"
+        }
+    ]
+}

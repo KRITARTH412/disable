@@ -1,0 +1,86 @@
+/* Card Animation */
+.card-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.8s ease forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .slide-in-left {
+    animation-name: slideInLeft;
+  }
+  
+  @keyframes slideInLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .slide-in-right {
+    animation-name: slideInRight;
+  }
+  
+  @keyframes slideInRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Floating Image Animation */
+  .floating-image {
+    animation: floatImage 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+  @keyframes floatImage {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Smooth Hover for Image */
+  .group:hover img {
+    transform: scale(1.05);
+  }
+  
+  /* Text Animation */
+  .text-content {
+    animation: fadeInText 1s ease-out forwards;
+    opacity: 0;
+  }
+  
+  @keyframes fadeInText {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  

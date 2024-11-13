@@ -1,0 +1,180 @@
+.bg-design {
+    position: relative;
+    z-index: 0;
+}
+
+/* Existing circle shapes */
+.bg-design::before, 
+.bg-design::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.bg-design::before {
+    width: 10vw;  /* Use vw for responsive width */
+    height: 10vw; /* Use vw for responsive height */
+    background: rgba(255, 255, 255, 0.15);
+    top: -5vw; /* Adjust the positioning relative to the viewport */
+    left: -5vw;
+}
+
+.bg-design::after {
+    width: 15vw;
+    height: 15vw;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: -8vw;
+    right: -8vw;
+    z-index: 1;
+}
+
+/* Additional circle-like shapes */
+.bg-design .circle {
+    position: absolute;
+    width: 8vw;  /* Responsive width */
+    height: 8vw; /* Responsive height */
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    top: 10%;
+    right: -10%;
+    z-index: 1;
+}
+
+.bg-design .circle-2 {
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    top: 15vh;  /* Use vh for vertical positioning */
+    left: -5vw;
+    z-index: 1;
+}
+
+.bg-design .circle-3 {
+    position: absolute;
+    width: 15vw;  /* Percentage is changed to vw for responsiveness */
+    height: 15vw;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.2);
+    bottom: 10vh;
+    left: 65vw;
+    z-index: 1;
+}
+
+/* Responsive triangle shape (if you need it) */
+/* .bg-design .triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5vw solid transparent;
+    border-right: 5vw solid transparent;
+    border-bottom: 10vw solid rgba(255, 255, 255, 0.15);
+    top: 90%;
+    right: 50%;
+    z-index: 1;
+} */
+
+/* Responsive square shape (if you need it) */
+/* .bg-design .square {
+    position: absolute;
+    width: 8vw;
+    height: 8vw;
+    background: rgba(255, 255, 255, 0.1);
+    bottom: 90%;
+    left: 90%;
+    z-index: 1;
+} */
+
+/* Media queries for further adjustments on smaller screens */
+@media (max-width: 768px) {
+    .bg-design::before {
+        width: 20vw;
+        height: 20vw;
+        top: -5vw;
+        left: -10vw;
+    }
+
+    .bg-design::after {
+        width: 25vw;
+        height: 25vw;
+        bottom: -5vw;
+        right: -5vw;
+    }
+
+    .bg-design .circle {
+        width: 12vw;
+        height: 12vw;
+        top: 15%;
+        right: 0;
+    }
+
+    .bg-design .circle-2 {
+        width: 18vw;
+        height: 18vw;
+        top: 20vh;
+        left: 5vw;
+    }
+
+    .bg-design .circle-3 {
+        width: 30vw;
+        height: 30vw;
+        bottom: 5vh;
+        left: 5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg-design::before,
+    .bg-design::after,
+    .bg-design .circle,
+    .bg-design .circle-2,
+    .bg-design .circle-3 {
+        /* Scale down the size and reposition for mobile devices */
+        width: 15vw;
+        height: 15vw;
+    }
+
+    .bg-design .circle {
+        top: 20%;
+        right: 0;
+    }
+
+    .bg-design .circle-2 {
+        top: 25vh;
+        left: 5vw;
+    }
+
+    .bg-design .circle-3 {
+        bottom: 5vh;
+        left: 5vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .bg-design::before,
+    .bg-design::after,
+    .bg-design .circle,
+    .bg-design .circle-2,
+    .bg-design .circle-3 {
+        /* Scale down the size and reposition for mobile devices */
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .bg-design .circle {
+        top: 20%;
+        right: 0;
+    }
+
+    .bg-design .circle-2 {
+        top: 25vh;
+        left: 5vw;
+    }
+
+    .bg-design .circle-3 {
+        bottom: 5vh;
+        left: 5vw;
+    }
+}

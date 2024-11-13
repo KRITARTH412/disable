@@ -1,0 +1,53 @@
+{
+    "projectdetail": [
+        {
+            "id": "webdevelopment",
+            "title": "Years of Industry Experience",
+            "description": "4+"
+        },
+        {
+            "id": "mobiledevelopment",
+            "title": "Delighted Clients Worldwide",
+            "description": " 51+"
+        },
+        {
+            "id": "uiux",
+            "title": "Projects Delivered Successfully",
+            "description": "37+"
+        }
+    ],
+   "howtowork": [
+        {
+            "title": "Contact Participant",
+            "description": "Reach out to the participant to schedule a meeting."
+        },
+        {
+            "title": "Participant Agrees",
+            "description": "Confirm the participant’s availability and agreement to meet."
+        },
+        {
+            "title": "Meet Participant",
+            "description": "Arrange and attend the meeting at the agreed location."
+        },
+        {
+            "title": "Understand Requirements:",
+            "description": "Discuss and understand the participant’s needs and requirements."
+        },
+        {
+            "title": "Agree on Service, Time, and Prices",
+            "description": "Negotiate and agree on the services to be provided, the timeline, and the pricing."
+        },
+        {
+            "title": "Draft Service Agreement",
+            "description": "Prepare a detailed service agreement based on the discussions."
+        },
+        {
+            "title": "Send Agreement for Signature",
+            "description": "Send the drafted agreement to the participant for their signature."
+        },
+        {
+            "title": "Receive Signed Agreement",
+            "description": "Collect the signed agreement from the participant."
+        }
+    ]
+}

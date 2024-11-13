@@ -1,0 +1,419 @@
+/* Base styles */
+/* Nav-Bar-CSS */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 30px;
+  background-color: whitesmoke;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  /* Ensure the navbar stays above other content */
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  box-sizing: border-box;
+  /* Include padding and border in element's total width and height */
+}
+
+.navbar-logo img {
+  width: 60px;
+  /* Set the logo width */
+  height: auto;
+  /* Maintain aspect ratio */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+  border-radius: 80%;
+
+}
+
+.navbar-logo img:hover {
+  transform: scale(1.2);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  filter: brightness(1.1);
+  /* Slightly brighten the logo on hover */
+  border-radius: 80%;
+  cursor: pointer;
+  background-color: rgb(191, 245, 205);
+}
+
+.navbar-left ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex: 1;
+  /* Allow the left section to take up remaining space */
+}
+
+.navbar-left ul li {
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease, text-shadow 0.3s ease;
+  position: relative;
+}
+
+.navbar-left ul li svg {
+  margin-right: 20px;
+  /* Space between icon and text */
+  transition: color 0.3s ease;
+}
+
+.navbar-left ul li:hover {
+  color: #2980b9;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-left ul li:hover svg {
+  color: #2980b9;
+  margin-right: 20px;
+  transform: translateY(-2px);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.navbar-left ul li::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #2980b9;
+  left: 0;
+  bottom: -5px;
+  transition: width 0.3s ease;
+}
+
+.navbar-left ul li:hover::after {
+  width: 100%;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-right .login-button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  white-space: nowrap;
+  /* Prevent button text from wrapping */
+}
+
+.navbar-right .login-button:hover {
+  background-color: #1a5981;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* When Logged In */
+.is-logged-in .navbar-right .login-button {
+  background-color: #27ae60;
+}
+
+.is-logged-in .navbar-right .login-button:hover {
+  background-color: #1e8449;
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar shrinking on scroll */
+.scrolled .navbar {
+  padding: 8px 30px;
+  background-color: #f0f0f0;
+  /* Slightly darker background on scroll */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 15px;
+  }
+
+  .navbar-logo {
+    margin-bottom: 15px;
+  }
+
+  .navbar-left ul {
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .navbar-left ul li {
+    margin: 15px 0;
+  }
+
+  .navbar-right .login-button {
+    width: 100%;
+    padding: 15px 0;
+  }
+
+  .navbar-left ul li:hover {
+    transform: translateX(5px);
+  }
+
+  .navbar-left ul li:hover::after {
+    left: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Tablet styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar {
+    flex-direction: row;
+    padding: 15px 20px;
+  }
+
+  .navbar-left ul li {
+    margin-right: 15px;
+  }
+
+  .navbar-right .login-button {
+    padding: 10px 15px;
+  }
+
+  .navbar-left ul li:hover::after {
+    left: 0;
+    width: 100%;
+  }
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translateY(10px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.navbar-item {
+  animation: jump 0.8s ease-out forwards;
+  opacity: 0;
+  /* Initial opacity set to 0 */
+  transform: translateY(-100px);
+  /* Initial position for the jump effect */
+  visibility: visible;
+}
+
+.navbar-item:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.navbar-item:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.navbar-item:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.navbar-item:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.navbar-item:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.blinking-cursor {
+  font-weight: 100;
+  font-size: 24px;
+  color: #6e9d32;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+@import url("https://pro.fontawesome.com/releases/v6.0.0-beta1/css/all.css");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  --color: rgba(30, 30, 30);
+  --bgColor: rgba(245, 245, 245);
+  font-family: "Exo 2", sans-serif;
+  color: var(--color);
+  background: var(--bgColor);
+}
+
+.circle-cards {
+  min-height: 100vh;
+  display:inline;
+  align-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.circle-cards h1 {
+  text-align: center;
+}
+
+.circle-cards ol {
+  width: min(90rem, 100%);
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  counter-reset: stepnr;
+}
+
+.circle-cards li:nth-child(6n + 1) {
+  --accent-color: #b8df4e;
+}
+
+.circle-cards li:nth-child(6n + 2) {
+  --accent-color: #4cbccb;
+}
+
+.circle-cards li:nth-child(6n + 3) {
+  --accent-color: #7197d3;
+}
+
+.circle-cards li:nth-child(6n + 4) {
+  --accent-color: #ae78cb;
+}
+
+.circle-cards li:nth-child(6n + 5) {
+  --accent-color: #7dc7a4;
+}
+
+.circle-cards li:nth-child(6n + 6) {
+  --accent-color: #f078c2;
+}
+
+.circle-cards ol li {
+  counter-increment: stepnr;
+  width: 24rem;
+  --borderS: 2rem;
+  --accent-color: #e0aaff;
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: calc(var(--borderS) + 2rem);
+  position: relative;
+  transition: border-color 0.4s ease;
+  /* Add this for smooth color transition */
+}
+
+.circle-cards ol li::before,
+.circle-cards ol li::after {
+  inset: 0;
+  position: absolute;
+  border-radius: 50%;
+  border: var(--borderS) solid #7f3cb9;
+  line-height: 1.1;
+  transition: border-color 0.4s ease;
+  /* Add this for smooth color transition */
+}
+
+.circle-cards ol li::before {
+  content: "";
+  color: var(--accent-color);
+  padding-left: 10rem;
+  font-size: 12rem;
+  font-weight: 700;
+  overflow: hidden;
+}
+
+.circle-cards ol li::after {
+  content: "";
+  filter: drop-shadow(-0.25rem 0.25rem 0.0675rem rgba(0, 0, 0, 0.75)) blur(5px);
+}
+
+.circle-cards ol li>* {
+  width: 8rem;
+}
+
+.circle-cards ol li .icon {
+  font-size: 4rem;
+  color: var(--accent-color);
+  text-align: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 3.6rem; 
+}
+
+.circle-cards ol li .title {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-left: 3.6rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.circle-cards ol li .descr {
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-left: 3.6rem;
+  text-align: center;
+  display: flex;
+}
+
+/* Hover effect for changing border color */
+.circle-cards ol li:hover::before,
+.circle-cards ol li:hover::after {
+  border-color: var(--accent-color);
+  /* Change border color on hover */
+}
+
+.circle-cards .credits {
+  margin-top: 2rem;
+  text-align: right;
+}
+
+.circle-cards .credits a {
+  color: var(--color);
+}
+
